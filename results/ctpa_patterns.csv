@@ -1,0 +1,44 @@
+block,feature,pattern
+PE descriptors and incidental findings,pe_pos,pulmonary embol|filling defect
+PE descriptors and incidental findings,saddle,saddle
+PE descriptors and incidental findings,central,\bcentral\b|main pulmonary
+PE descriptors and incidental findings,lobar,lobar
+PE descriptors and incidental findings,segmental,(?<!sub)segmental
+PE descriptors and incidental findings,subseg,subsegmental
+PE descriptors and incidental findings,bilateral,bilateral
+PE descriptors and incidental findings,rv_strain,right ventric|rv[/ ]lv|right heart strain|rv strain
+PE descriptors and incidental findings,septal_bow,septal bowing|septal flattening|d-?shaped
+PE descriptors and incidental findings,reflux,"reflux[^.]{0,25}(?:ivc|vena cava|hepatic)"
+PE descriptors and incidental findings,mpa_enlarge,"pulmonary arter\w+[^.]{0,30}(?:enlarg|dilat)"
+PE descriptors and incidental findings,infarct,infarct
+PE descriptors and incidental findings,effusion,effusion
+PE descriptors and incidental findings,malignancy,malignan|metasta|neoplas|carcinoma|\bmass\b
+PE descriptors and incidental findings,consolid,consolidat|pneumonia
+PE descriptors and incidental findings,atelect,atelecta
+PE descriptors and incidental findings,edema,edema
+PE descriptors and incidental findings,cardiomeg,cardiomegal
+PE descriptors and incidental findings,adenopathy,adenopathy
+Comorbidity mentions,emphysema,emphysem|\bcopd\b|centrilobular
+Comorbidity mentions,fibrosis,fibrosis|interstitial|honeycomb|reticulation|\bild\b|usual interstitial
+Comorbidity mentions,bronchiect,bronchiectas
+Comorbidity mentions,mets,metasta|innumerable|osseous lesion|lytic lesion|sclerotic lesion
+Comorbidity mentions,lymphangitic,lymphangitic
+Comorbidity mentions,cirrhosis,cirrho|nodular (?:contour|liver)|hepatic steatosis
+Comorbidity mentions,ascites,ascites|peritoneal fluid
+Comorbidity mentions,pericard_eff,pericardial effusion|pericardial fluid
+Comorbidity mentions,aortic_ath,aortic (?:atheroscler|calcific)|atheroscler|calcified (?:aorta|plaque)
+Comorbidity mentions,aneurysm,aneurysm|dissect
+Comorbidity mentions,valve,valv\w+ (?:calcific|replace|prosthe)|prosthetic valve|annular calcific
+Comorbidity mentions,cachexia,cachexia|cachectic|sarcopeni|muscle wasting
+Comorbidity mentions,obesity,obes|large body habitus|body habitus
+Comorbidity mentions,renal,nephrostomy|atrophic kidney|renal atroph|hydronephro
+Comorbidity mentions,pleural_thick,pleural thickening|pleural plaque
+Comorbidity mentions,vert_fx,compression (?:fracture|deform)|vertebral fracture
+Support-device mentions,ett,endotracheal tube|\bett\b|intubat
+Support-device mentions,trach,tracheostomy|trach tube
+Support-device mentions,cvc,central (?:venous|line)|\bpicc\b|port-?a-?cath|dialysis catheter|swan-?ganz
+Support-device mentions,pacer,pacemaker|\bicd\b|defibrillator|pacing lead
+Support-device mentions,sternotomy,sternotomy|\bcabg\b|sternal wire|median stern
+Support-device mentions,chesttube,chest tube|pigtail|thoracostomy
+Support-device mentions,ngtube,nasogastric|\bng tube\b|feeding tube|\bogt\b
+Support-device mentions,ivcfilter,ivc filter|vena cava filter
