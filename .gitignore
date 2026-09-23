@@ -1,0 +1,37 @@
+# data and derived data: never commit
+data/
+Datasets/
+*.parquet
+*.npy
+*.npz
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.nii.gz
+*.dcm
+*.hea
+*.dat
+*.tsv
+p_*.csv
+*_preds.csv
+*feature*.csv
+*labels*.csv
+attrib_*.csv
+ro4_fusion_table.csv
+# logs can print patient rows
+logs/
+*.log
+*_log.txt
+# environments and secrets
+venv/
+venv_*/
+.env
+*credentials*.json
+__pycache__/
+.ipynb_checkpoints/
+.Rhistory
+.Rproj.user/
+# aggregate result tables are allowed even when their names match above
+!results/*.csv
