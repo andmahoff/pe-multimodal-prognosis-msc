@@ -17,11 +17,23 @@ Three-modality cohort (EHR, ECG and CTPA report), 1,703 MIMIC-IV admissions:
 | 30-day death | 157 | 0.8715 | +0.0262 | +0.1020 |
 | Composite (death or cardiovascular readmission, 30 days) | 229 | 0.8389 | +0.0212 | +0.0758 |
 
-All confidence intervals for these gains excluded zero.
+All confidence intervals for these gains excluded zero. Fusion added nothing for cardiovascular readmission alone (3,131 admissions, 171 events, +0.0032).
 
-- The fusion gain depended on how constrained the primary modality was. With the ECG and CTPA predictions held identical and only the EHR modality strengthened, the increment fell from +0.0262 to +0.0137 to +0.0077.
-- Fusion added nothing for cardiovascular readmission alone (3,131 admissions, 171 events, +0.0032).
-- Zero-shot transfer from INSPECT to MIMIC-IV cost 0.047 to 0.095 AUROC for structured measurements, but only 0.012 to 0.018 for CTPA report text.
+The fusion gain depended on how constrained the primary modality was. With the ECG and CTPA predictions held identical and only the EHR modality strengthened, the increment for 30-day death fell from +0.0262 to +0.0137 to +0.0077.
+
+<p align="center">
+  <img src="figures/fig35_supervision_ladder.png" width="760" alt="Fusion increment over the EHR modality at three configurations of that modality">
+</p>
+
+*Fusion increment over the EHR modality alone at three configurations of that modality, on the same 1,703 admissions. The ECG and CTPA predictions are identical at every step. Intervals are shown for 30-day death only.*
+
+Zero-shot transfer from INSPECT to MIMIC-IV cost 0.047 to 0.095 AUROC for structured measurements, 2.6 to 3.7 times the cost of restricting the model to features measurable at both sites. For CTPA report text the transfer cost was only 0.012 to 0.018.
+
+<p align="center">
+  <img src="figures/fig33_transfer_cost.png" width="760" alt="Transfer cost split into feature-restriction and institution components">
+</p>
+
+*Transfer cost of the EHR modality against an unconstrained model trained within MIMIC-IV, split into the cost of restricting the feature set and the cost of training at another institution. The multiplier gives the ratio of the two.*
 
 ## Data access
 
