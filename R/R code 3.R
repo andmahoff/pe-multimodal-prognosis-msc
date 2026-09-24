@@ -11,12 +11,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -193,12 +193,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -397,12 +397,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -611,7 +611,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -810,7 +810,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -987,7 +987,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -1152,7 +1152,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -1330,7 +1330,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -1550,7 +1550,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -1787,12 +1787,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -1919,12 +1919,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -2075,12 +2075,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -2222,12 +2222,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -2384,12 +2384,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -2585,7 +2585,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -2735,7 +2735,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -2940,7 +2940,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -3155,7 +3155,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -3351,7 +3351,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -3574,7 +3574,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -3794,7 +3794,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -3987,7 +3987,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -4243,7 +4243,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -4507,7 +4507,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -4790,7 +4790,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -5080,7 +5080,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -5374,7 +5374,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -5666,12 +5666,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -5877,12 +5877,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -6137,12 +6137,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -6394,7 +6394,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -6678,12 +6678,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -6968,12 +6968,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -7251,12 +7251,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -7537,12 +7537,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -7825,7 +7825,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -8044,7 +8044,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -8328,7 +8328,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -8623,12 +8623,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -8854,12 +8854,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -9094,12 +9094,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -9290,12 +9290,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -9527,12 +9527,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -9794,12 +9794,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -10059,7 +10059,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -10355,7 +10355,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -10639,7 +10639,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -10944,7 +10944,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -11246,12 +11246,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -11422,12 +11422,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -11638,12 +11638,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -11829,12 +11829,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -12044,12 +12044,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -12244,12 +12244,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -12449,12 +12449,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -12658,7 +12658,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -12898,7 +12898,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -13162,12 +13162,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -13341,12 +13341,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -13521,12 +13521,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -13758,12 +13758,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -14004,7 +14004,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -14228,7 +14228,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -14483,7 +14483,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -14663,12 +14663,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -14821,12 +14821,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -14983,7 +14983,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -15199,7 +15199,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
@@ -15404,12 +15404,12 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
 
-data_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+data_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                    "Data Science/Dissertation/figwork/data")
 
 FONT <- "Calibri"
@@ -15636,7 +15636,7 @@ library(systemfonts)
 
 ## ---- 1. house settings ----------------------------------
 
-fig_dir <- paste0(file.path(Sys.getenv("USERPROFILE"), "Documents", ""),
+fig_dir <- paste0(paste0(Sys.getenv("USERPROFILE"), "/Documents/"),
                   "Data Science/Dissertation/R graphs")
 dir.create(fig_dir, recursive = TRUE,
            showWarnings = FALSE)
