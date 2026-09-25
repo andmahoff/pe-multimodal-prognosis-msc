@@ -4,6 +4,13 @@ MSc Data Science dissertation, University of Sheffield, 2026.
 
 This repository holds the analysis code, the R figure scripts and the aggregate result tables behind the dissertation. It is research code shared for transparency and reproducibility, not a maintained software package.
 
+**In brief:**
+- Fusing EHR, ECG and CTPA report features predicted 30-day death (AUROC 0.8715) and a 30-day composite outcome (0.8389) better than the best single modality and better than the six-criterion sPESI.
+- The gain from fusion shrank as the EHR modality was strengthened, so fusion helps most when the primary modality is constrained.
+- CTPA report text transferred between hospitals far better than structured measurements.
+
+A follow-up project, [pe-fusion-transfer](https://github.com/andmahoff/pe-fusion-transfer), tests which fusion methods survive transfer between hospitals and builds a three-modality tree ensemble.
+
 ## Summary
 
 Risk after acute pulmonary embolism (PE) is usually stratified with the simplified Pulmonary Embolism Severity Index (sPESI), which is sensitive but not specific and predicts mortality alone. This project built a late-fusion ensemble of four modalities to predict 30-day outcomes after PE: structured electronic health records (EHR), 12-lead electrocardiograms (ECG), computed tomography pulmonary angiography (CTPA) report text and chest radiographs (CXR). The EHR modality was trained on Stanford INSPECT and applied without any target labels to MIMIC-IV, while the other modalities were trained within MIMIC-IV under subject-level cross-validation. Predictions were combined by weighted rank averaging, with the weights selected inside each training fold, and compared with the six-criterion sPESI.
@@ -18,6 +25,14 @@ Three-modality cohort (EHR, ECG and CTPA report), 1,703 MIMIC-IV admissions:
 | Composite (death or cardiovascular readmission, 30 days) | 229 | 0.8389 | +0.0212 | +0.0758 |
 
 All confidence intervals for these gains excluded zero. Fusion added nothing for cardiovascular readmission alone (3,131 admissions, 171 events, +0.0032).
+
+The fusion model also had more clinical value than sPESI-6 when used to decide who needs closer care. For 30-day death, its net benefit after Platt calibration exceeded that of sPESI-6 at every risk threshold from 0.05 to 0.40.
+
+<p align="center">
+  <img src="figures/fig_spesi_dca.png" width="760" alt="Decision curves for the fusion model and sPESI-6">
+</p>
+
+*Figure 13 of the dissertation: net benefit of the fusion model and sPESI-6 across risk thresholds, with treating all patients and treating none as references.*
 
 The fusion gain depended on how constrained the primary modality was. With the ECG and CTPA predictions held identical and only the EHR modality strengthened, the increment for 30-day death fell from +0.0262 to +0.0137 to +0.0077.
 
@@ -160,6 +175,10 @@ Errors found in the submitted dissertation since submission:
 1. **Abstract.** The EHR modality is described as trained on 4,524 PE-positive INSPECT patients. That is the number of PE-coded patients; the model was trained on the 3,300 with an index CTPA within 30 days of diagnosis, as stated in Section 3.3 and Table 10.
 2. **INSPECT cohort diagram (the second figure numbered 3).** The final box gives a training cohort of 3,136, excluding patients censored for 1-month mortality. That restriction applied only to the count-feature comparison (`116a_build_counts.py`). The EHR modality was developed on all 3,300. The second box also reads 4,525 where the text gives 4,524.
 3. **Prior history in INSPECT and MIMIC-IV (Section 3.3 and Table 40).** The INSPECT figure of 377 is the median number of distinct pre-index codes of every type per patient (diagnoses, laboratory tests, drugs and procedures, including three-character parent groupings). The MIMIC-IV figure of 4 counts diagnosis codes from prior admissions only. The two are not the same measure, although the conclusion stands: 47.2% of MIMIC-IV admissions have no prior record at all.
+
+## Follow-up work
+
+[pe-fusion-transfer](https://github.com/andmahoff/pe-fusion-transfer) extends this project. It compares early, intermediate and late fusion when both the EHR and CTPA modalities are trained at one hospital and applied at another, in both directions between INSPECT and MIMIC-IV. It then builds a block-stratified random forest over EHR, ECG and CTPA, validated with nested cross-validation.
 
 ## Citation and licence
 
