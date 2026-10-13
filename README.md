@@ -8,6 +8,7 @@ This repository holds the analysis code, the R figure scripts and the aggregate 
 - Fusing EHR, ECG and CTPA report features predicted 30-day death (AUROC 0.8715) and a 30-day composite outcome (0.8389) better than the best single modality and better than the six-criterion sPESI.
 - However, the gain from fusion shrank as the EHR modality was strengthened, so fusion helps most when the primary modality is constrained.
 - In addition, CTPA report text transferred between hospitals far better than the EHR measurements did when models were moved from INSPECT to MIMIC-IV.
+- Two later projects re-tested these results on overlapping data. Most held, one was reframed, one was left open and one did not reproduce, as set out in [What later work found](#what-later-work-found).
 
 **Part of a three-project series on prognosis after acute pulmonary embolism (PE):**
 
@@ -188,6 +189,21 @@ Two later projects build on this one.
 
 - [pe-fusion-transfer](https://github.com/andmahoff/pe-fusion-transfer) compares early, intermediate and late fusion when both the EHR and CTPA modalities are trained at one hospital and applied at another, in both directions between INSPECT and MIMIC-IV. It then builds a block-stratified random forest over EHR, ECG and CTPA, validated with nested cross-validation.
 - [pe-survival-prognosis](https://github.com/andmahoff/pe-survival-prognosis) re-analyses the MIMIC-IV cohort as time-to-event data, in which survival super learners predict death and cardiovascular readmission at 10 to 365 days, from diagnosis and from discharge. The analysis follows a pre-registered plan, and the project also transfers death models between MIMIC-IV and INSPECT.
+
+### What later work found
+
+The table compares each dissertation result with what the side project (Part 2) and the survival project (Part 3) found when they re-tested it. However, both later projects used overlapping rather than identical MIMIC-IV cohorts and often different models, so most rows are close comparisons rather than exact repeats.
+
+| Dissertation result | Later finding | Verdict | Where |
+|---|---|---|---|
+| The fusion gain fell as the EHR modality was strengthened, from +0.0262 to +0.0077 for 30-day death. | The AUROC gap between the two modalities tracked the late-fusion gain across 4 train and test directions and 3 outcomes, with r = -0.986 for equal-weight and r = -0.906 for weighted late fusion. | Confirmed and generalised | Part 2 |
+| No more flexible combination rule, whether meta-learners or a joint neural representation, significantly beat weighted rank averaging. | Seven intermediate (neural) fusion variants were never significantly better than the EHR alone in 84 cells. However, within MIMIC-IV a feature-level block-stratified forest beat weighted rank averaging on three of four outcomes in a non-nested comparison (+0.0189 for 30-day death). After nested validation of the forest, its margin over late fusion fell to about 0.013 for 30-day death and 0.003 for the composite. In addition, a survival version in Part 3 did not beat late fusion (a Cox stack) on the three-modality cohort. | Held for neural fusion, but open for tree ensembles | Parts 2 and 3 |
+| Removing the ECG from the three-modality model cost 0.0081 AUROC for 30-day death. | A rerun on about 1,635 admissions reproduced the three-modality AUROC (0.8720 against 0.8715), but there the ECG added only 0.0002. In Part 3's EHR+ECG cohort, with an EHR modality trained within MIMIC-IV, the ECG added 0.006 for 30-day death at diagnosis and 0.005 at discharge. | Confirmed as small, and close to zero in the rerun | Parts 2 and 3 |
+| CTPA report text lost little when trained on INSPECT and applied to MIMIC-IV, at 0.0175 AUROC for 30-day death and nothing on the composite (Table 17). | With the INSPECT-trained and MIMIC-trained models compared on the same 38 features and 1,636 admissions, the cost was 0.081 for 30-day death and 0.072 for the composite. This was mostly because the INSPECT-trained model scored lower than in the dissertation (0.691 against 0.741 for 30-day death), and the cause of that difference was not established. However, the fused models above are unaffected, since they used a CTPA modality trained within MIMIC-IV. | Not reproduced | Part 2 |
+| Outcomes were counted from admission, while the EHR features came from the whole index admission. | In the EHR+ECG cohort, a model limited to information available at presentation scored 0.033 (0.018 to 0.050) lower AUROC for 30-day death than a model with the same clock built on values from the whole stay. However, in the three-modality cohort the gap was 0.017 (-0.004 to 0.035). | Reframed, since the earlier setup mixed information from presentation with information gathered later in the stay | Part 3 |
+| Fusion beat sPESI by 0.1020 AUROC for 30-day death in the three-modality cohort, but the comparison of specificity at matched sensitivity was inconclusive. | In Part 3's three-modality cohort, the at-diagnosis model beat sPESI by 0.119 (0.090 to 0.152), and its specificity at sPESI's sensitivity was 0.268 (0.074 to 0.339) higher. | Confirmed, with a specificity gain | Part 3 |
+| Outcomes were modelled as binary 30-day events. | Survival and binary models were within 0.01 AUROC of each other in 32 of 40 cells. However, the survival analysis also showed that the ECG's signal for death is concentrated in the first 30 days after discharge (ratio of hazard ratios 1.26, 1.06 to 1.51). | Confirmed as adequate for discrimination | Part 3 |
+| In the CTPA modality, incidental thoracic findings carried more weight than the embolus descriptors. | On their own, incidental findings reached a 30-day AUROC of 0.713, against 0.563 for the PE descriptors and 0.495 for the right-heart strain signs. | Confirmed | Part 3 |
 
 ## Citation and licence
 
