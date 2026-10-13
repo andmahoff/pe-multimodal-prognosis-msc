@@ -9,7 +9,13 @@ This repository holds the analysis code, the R figure scripts and the aggregate 
 - The gain from fusion shrank as the EHR modality was strengthened, so fusion helps most when the primary modality is constrained.
 - CTPA report text transferred between hospitals far better than structured measurements.
 
-A follow-up project, [pe-fusion-transfer](https://github.com/andmahoff/pe-fusion-transfer), tests which fusion methods survive transfer between hospitals and builds a three-modality tree ensemble.
+**Part of a three-project series on prognosis after acute pulmonary embolism (PE):**
+
+| Part | Repository | Question |
+|---|---|---|
+| 1 | **pe-multimodal-prognosis-msc** (this repository) | MSc dissertation. Does late fusion of EHR, ECG, CTPA report and CXR features improve the prediction of 30-day outcomes after PE? |
+| 2 | [pe-fusion-transfer](https://github.com/andmahoff/pe-fusion-transfer) | Which fusion methods still help when models move between hospitals, in both directions between Stanford INSPECT and MIMIC-IV? |
+| 3 | [pe-survival-prognosis](https://github.com/andmahoff/pe-survival-prognosis) | The MIMIC-IV cohort as time-to-event data: risk of death and readmission at any point up to one year, from diagnosis and from discharge. |
 
 ## Summary
 
@@ -178,7 +184,10 @@ Errors found in the submitted dissertation since submission:
 
 ## Follow-up work
 
-[pe-fusion-transfer](https://github.com/andmahoff/pe-fusion-transfer) extends this project. It compares early, intermediate and late fusion when both the EHR and CTPA modalities are trained at one hospital and applied at another, in both directions between INSPECT and MIMIC-IV. It then builds a block-stratified random forest over EHR, ECG and CTPA, validated with nested cross-validation.
+Two later projects build on this one.
+
+- [pe-fusion-transfer](https://github.com/andmahoff/pe-fusion-transfer) compares early, intermediate and late fusion when both the EHR and CTPA modalities are trained at one hospital and applied at another, in both directions between INSPECT and MIMIC-IV. It then builds a block-stratified random forest over EHR, ECG and CTPA, validated with nested cross-validation.
+- [pe-survival-prognosis](https://github.com/andmahoff/pe-survival-prognosis) re-analyses the MIMIC-IV cohort as time-to-event data. Survival super learners predict death and cardiovascular readmission at 10 to 365 days, from diagnosis and from discharge, under a pre-registered analysis plan. It also transfers death models between MIMIC-IV and INSPECT.
 
 ## Citation and licence
 
